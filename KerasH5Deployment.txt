@@ -1,0 +1,20 @@
+train the model in Keras and make a h5 model
+
+then we will have 3 functions whether its batch or restful API
+
+def get_model 
+load_model( 'some h5  file')
+return model 
+
+def preprocessing
+ return preprocessed array   ## this is usually a numpy array and you can decide how many dimensions and shape it is
+
+def predict
+   model.predict(preprocessed array)
+
+response ()  ## this will either go to the weba pp
+
+or in batch processing it can go to the app.
+
+If you are web srevices then use flask and web api
+
