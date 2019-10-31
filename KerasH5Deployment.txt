@@ -18,3 +18,27 @@ or in batch processing it can go to the app.
 
 If you are web srevices then use flask and web api
 
+#########################################################################
+##########################  AWS deployment for keras with h5 and JSON file structure
+
+step 1: save the weights of the file as h5 over here we will call it mpg_model_weights.h5
+         save the structure of the model as JSON as mpg_model.json
+
+now we will sign to AWS  and click AWS Sagemaker::: please know that I will open my jupyter notebook inside AWS and then upload everything there
+
+click Dashboard --> Notebook instances ---> jupyter notebook  --> now upload the file where we have been working 
+
+-- code
+import Boto3 , 
+from sagemaker import get-execution_role
+
+import keras 
+from keras.models import model_from_json
+
+--- now make a dir called keras model and upload h5 and json file there
+
+build.savedmodelBuilder
+
+--- 
+
+
